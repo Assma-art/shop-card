@@ -55,7 +55,7 @@ let minusBtnTab = Array.from(minusBtns);
 console.log(minusBtnTab);
 for (let i = 0; i < minusBtns.length; i++) {
   minusBtns[i].addEventListener("click", function () {
-    // console.loh(i);
+    // console.log(i);
     console.log(minusBtnTab);
     minusBtns[i].nextElementSibling.textContent++;
     total();
